@@ -52,5 +52,14 @@ mon produit préféré est
     echo "La somme de nombre 1 et de nombre 2 est : " .$somme;
 
 ?>
+
+<?php
+    $notes["Jules"] = 12;
+    $notes["Maxence"] = 15;
+    $notes["Seb"] = 14;
+    $notes["Coubma"] = 13;
+?>
+
+
 </body>
 </html>

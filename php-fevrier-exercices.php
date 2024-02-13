@@ -81,6 +81,45 @@
 
     $finalStep = $substract1 + $percent;
     echo "Le produit de la dernière étape (étape 4 et 3) :" .$finalStep;
+
+    ## ESXERCI
+    ## SEQUENCE 03
+
+    #Exercice 1
+
+    $couleurs = array("rouge", "vert", "bleu");
+    $taille = count($couleurs);
+    for ($i = 0; $i < $taille; 1) {
+        echo $couleurs[$i];
+        $i+=1;
+    }
+
+    #Exercice 2
+
+    // array_rand
+    // $indexSujet = array_rand($sujets); // Sélectionne un indice de sujet au hasard
+
+    $sujets = array("chien", "chat", "dragon", "piafs");
+    $verbes = array("mange", "attaque", "bat au cluedo");
+
+    $index_sujet = array_rand($sujets, 1);
+    $index_verbe = array_rand($verbes, 1);
+
+    for ($i = 0; $i<5; 1) {
+        echo $sujets[$index_sujet]." " .$verbes[$index_verbe]." ".$sujets[$index_sujet];
+        $index_sujet = array_rand($sujets, 1);
+        $index_verbe = array_rand($verbes, 1);
+        $i+=1;
+    }
+
+    #Exercice 3:
+    $courses = array("weed", "meat", "cake", "flour");
+    $taille_two = count($courses);
+        for ($i = 0; $i < $taille_two; 1) {
+            echo $courses[$i].", ";
+            $i+=1;
+        }
+
     ?>
 </body>
 </html>
